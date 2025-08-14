@@ -1,0 +1,77 @@
+.benefits{
+    margin-top: 150px;
+    &-description{
+        color: #b3b3b3;
+        font-weight: 300;
+        font-size: 1.125rem;
+        max-width: 80%;
+    }
+
+    &__container{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(1fr 2px 1fr);
+        gap: 50px;
+        &-item{
+            border-radius: 50px 20px;
+            padding: 50px;
+            background-image: url('../../../html/img/careers/Card\ background.png');
+            background-repeat: no-repeat;
+            &--item1{grid-area: 1 / 1 / 1 / 1;}
+            &--item2{grid-area: 1 / 3 / 2 / 3;}
+            &--item3{grid-area: 3 / 1 / 3 / 1;}
+            &--item4{grid-area: 3 / 3 / 3 / 3;}
+
+        }
+        &-divline{
+            border-style: none;
+            
+            &--vertical{
+                width: 2px;
+                background: repeating-linear-gradient(
+                    to bottom,
+                    #262626 0px,
+                    #262626 20px, /* длина штриха */
+                    transparent 20px,
+                    transparent 34px /* длина промежутка */
+                );
+                &:first-of-type{
+                    grid-area: 1 / 2 / 2 / 2;
+                }
+                &:last-of-type{grid-area: 3 / 2 / 3 / 3;}
+            }
+
+            &--horizontal{
+                height: 2px;
+                background: repeating-linear-gradient(
+                    to right,
+                    #262626 0px,
+                    #262626 20px, /* длина штриха */
+                    transparent 20px,
+                    transparent 34px /* длина промежутка */
+                );
+                width: 100%;
+                grid-area: 2 / 1 /  2 / 4;
+            }
+        }
+        &-title{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            h3{
+                font-weight: 400;
+                font-size: 1.5rem;
+                line-height: 150%;
+            }
+        }
+        &-description{
+            font-weight: 300;
+            font-size: 1.125rem;
+            line-height: 150%;
+            color: #b3b3b3;
+            margin-top: 30px;
+        }
+    }
+
+    
+}

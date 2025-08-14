@@ -1,0 +1,130 @@
+.testimonials{
+    margin-top: 150px;
+
+    &__title{
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 150%;
+        span{
+            color: $light-green;
+        }
+    }
+    &__info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+            max-width: 910px;
+            font-weight: 300;
+            font-size: 1.125rem;
+            color: #b3b3b3;
+            line-height: 150%;
+        }
+        &-switch{
+            padding: 0.875rem;
+            border-radius: 82px;
+            background-color: #1c1c1c;
+            border: 1px solid #262626;
+            max-height: 83px;
+            display: flex;
+        }
+        &-button{
+            padding: 0.875rem 1.5rem;
+            font-weight: 400;
+            font-size: 1.125rem;
+            line-height: 150%;
+            text-align: center;
+            border-radius: 140px;
+            border-style: none;
+            background-color: #1c1c1c;
+            color: #fff;
+
+            &--active{
+                background-color: $light-green;
+                color: #000;
+            }
+        }
+    }
+    &__slider{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        overflow: hidden;
+        &-wrapper{
+            overflow: hidden;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                left: 0;
+                width: 40%;
+                top: 0;
+                height: 100%;
+                z-index: 1;
+                background: linear-gradient(270deg, rgba(25, 25, 25, 0) 0%, #191919 100%);
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                right: 0;
+                transform: rotate(180deg);
+                width: 40%;
+                height: 100%;
+                background: linear-gradient(270deg, rgba(25, 25, 25, 0) 0%, #191919 100%);
+            }
+        }
+        &-content{
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 80px;
+            position: relative;
+            
+        }
+        button{
+            background-color: transparent;
+            border-style: none;
+        }
+        &-toright{
+            transform: rotate(180deg);
+        }
+        &-item{
+            flex: 0 0 397px;
+            max-width: 404px;
+        }
+        &-visual{
+            margin-top: 30px;
+            position: relative;
+            hr{
+                transform: rotate(180deg);
+                opacity: 0.05;
+            }
+            img{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: -15;
+                background-color:#1a1a1a;
+                padding: 0 20px;
+            }
+        }
+
+        &-text{
+            margin-top: 50px;
+            font-weight: 400;
+            font-size: 1.125rem;
+            line-height: 150%;
+            text-align: center;
+        }
+        &-name{
+            margin-top: 50px;
+            font-weight: 500;
+            font-size: 1.125rem;
+            line-height: 150%;
+            text-align: center;
+            color: $light-green;
+        }
+    }
+}

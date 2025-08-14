@@ -1,0 +1,40 @@
+.values{
+    &-title{
+        font-weight: 500;
+        line-height: 150%;
+    }
+    &-description{
+        font-weight: 300;
+        font-size: 1.125rem;
+        line-height: 150%;
+        color: #b3b3b3;
+        max-width: 1300px;
+    }
+    &__container{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+        &-item{
+            display: flex;
+            gap: 30px;
+            hr{
+                border-style: none;
+                width: 1px;
+                background-color: $light-green;
+            }
+        }
+        &-title{
+            font-weight: 500;
+            font-size: 3.625rem;
+            line-height: 150%;
+            color: #4c4c4d;
+        }
+        &-description{
+            font-weight: 300;
+            font-size: 1.125rem;
+            line-height: 150%;
+            color: #b3b3b3;
+        }
+    }
+}

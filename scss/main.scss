@@ -1,0 +1,43 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+//variables
+$light-green: #CAFF33;
+
+//imports
+@import 'reset';
+@import './components/header.scss';
+@import './components/hero.scss';
+@import './components/products.scss';
+@import './components/usecases.scss';
+@import './components/features.scss';
+@import './components/faq.scss';
+@import './components/testimonials.scss';
+@import './components/invite.scss';
+@import './components/footer.scss';
+
+//careers page
+
+@import './components/careers/careersHero.scss';
+@import './components/careers/ourValues.scss';
+@import './components/careers/benefits.scss';
+@import './components/careers/jobOpenings.scss';
+
+//about page
+
+@import './components/about/aboutHero.scss';
+@import './components/about/mission.scss';
+@import './components/about/pressReleases.scss';
+
+
+//security page
+
+@import './components/security/protect.scss';
+
+//login page
+
+@import './components/loginForm/login.scss';
+
+//sign up page
+
+@import './components/signUp/signUpForm.scss';

@@ -1,0 +1,248 @@
+.hero{
+    margin-top: 53px;
+    display: flex;
+    position: relative;
+    &__text{
+        width: 50%;
+        &-features{
+            margin-top: 100px;
+            background-color: #262626;
+            border-radius: 61px;
+            width: 325px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            span{
+                font-weight: 200;
+            }
+        }
+    }
+    
+
+    &__content{
+        h1{
+            margin-top: 20px;
+            font-size: 3rem;
+            line-height: 150%;
+            font-weight: 400;
+            span{
+                color: $light-green;
+            }
+        }
+        p{
+            margin-top: 14px;
+            font-size: 1.125rem;
+            font-weight: 300;
+            line-height: 150%;
+        }
+    }
+
+    &__block{
+        width: 50%;
+    }
+    &__button{
+        margin-top: 50px;
+        border-radius: 82px;
+        padding: 18px 30px;
+        width: 183px;
+        height: 63px;
+        border-style: none;
+        background-color: $light-green;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 150%;
+    }
+
+    &__block{
+        margin-top: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    &__income{
+        position: absolute;
+        z-index: 1;
+        left: 60px;
+        top: 0;
+        display: flex;
+        border-radius: 10px;
+        padding: 13px 17px;
+        width: 151px;
+        height: 49px;
+        background: #22251b;
+        gap: 0.5rem;
+        img{
+            width: 38px;
+        }
+        &-value{
+            font-weight: 400;
+            font-size: 1.0625rem;
+            line-height: 150%;
+        }
+        &-label{
+            font-weight: 300;
+            font-size: 0.8125rem;
+            line-height: 150%;
+        }
+    }
+
+    &__transactions{
+        margin-top: 2.6875rem;
+        position: relative;
+        width: 64%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1a1a1a;
+        border: 1px solid #262626;
+        border-radius: 0.625rem;
+        &-title{
+            margin-top: 2.1875rem;
+            margin-bottom: 1.0625rem;
+            width: 86%;
+            font-weight: 500;
+            font-size: 1.0625rem;
+            line-height: 150%;
+        }
+        &::after{
+            content: "";
+            z-index: -1;
+            background-image: url("/img/arrows2.png");
+            position: absolute;
+            right: -186px;
+            top: 0;
+            width: 418px;
+            height: 383px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__transaction{
+        display: flex;
+        flex-direction: row;
+        border-radius: 0.625rem;
+        border: 1px solid #262626;
+        padding: 0.8125rem 1.25rem;
+        box-sizing: border-box;
+        position: relative;
+        background-color: #1a1a1a;
+        &--first{
+            width: 86%;
+            justify-content: space-between;
+            z-index: 2;
+        }
+        &--second{
+            width: 80%;
+            top: -17px;
+            z-index: 1;
+            opacity: 0.5;
+        }
+        &--third{
+            width: 73%;
+            top: -34px;
+            z-index: 0;
+            opacity: 0.2;
+        }
+        &-info{
+            margin-left: 0.5rem;
+            width: 100%;
+        }
+        &-detail{
+            display: flex;
+            justify-content: space-between;
+        }
+        &-type{
+            font-weight: 300;
+            line-height: 150%;
+            font-size: 0.9375rem;
+        }
+        &-name{
+            font-weight: 400;
+            line-height: 150%;
+            font-size: 1.0625rem;
+        }
+    }
+
+    &__exchange{
+        width: 86%;
+        border: 1px solid #262626;
+        overflow: hidden;
+        border-radius: 0.625rem;
+        background-color: #1c1c1c;
+        &-title{
+            width: 86%;
+            font-weight: 500;
+            font-size: 1.0625rem;
+            line-height: 150%;
+        }
+        &-padding{
+            padding: 1.0625rem;
+            border: 0.5px solid #262626;
+        }
+        &-currency{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        &-flag{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            h3{
+                font-size: 0.9375rem;
+                text-transform: uppercase;
+                font-weight: 400;
+                line-height: 150%;
+            }
+        }
+        &-title{
+            margin-top: 0.5rem;
+            color: #e4e4e7;
+            font-weight: 300;
+            font-size: 0.8125rem;
+            line-height: 150%;
+        }
+        &-dollar, &-rupees{
+            h2{
+                font-weight: 500;
+                font-size: 1.0625rem;
+                line-height: 150%;
+            }
+        }
+
+        &-button{
+            width: 86%;
+            margin-top: 25px;
+            border-radius: 71px;
+            background: #22251b;
+            border-style: none;
+            padding: 0.8125rem 1.625rem;
+            color: #D1FF4D;
+            font-weight: 400;
+            font-size: 0.9375rem;
+            line-height: 150%;
+            margin-bottom: 48px;
+        }
+    }
+
+
+    &__currency{
+        position: absolute;
+        bottom: -81px;
+        right: 84px;
+        padding: 0.5rem 0.5rem 0.5rem 1.25rem;
+        background: #22251b;
+        border-radius: 69px;
+        display: flex;
+        align-items: center;
+        gap: 0.6875rem;
+        &-icons{
+            border-radius: 48px;
+            padding: 0.5rem;
+            background-color: #1A1A1A;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.protect{
+    &-description{
+        margin-top: 14px;
+        color: #b3b3b3;
+        font-weight: 300;
+        font-size: 1.125rem;
+        line-height: 150%;
+        max-width: 1300px;
+    }
+    &__container{
+        margin-top: 200px;
+        padding: 0px 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: -82px;
+            background-image: url('../../../html/img/security/Background\ Image.png');
+            width: 1593px;
+            height: 632px;
+        }
+        &-title{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            h3{
+                font-weight: 400;
+                font-size: 1.5rem;
+                line-height: 150%;
+            }
+        }
+        &-description{
+            font-weight: 300;
+            font-size: 1.125rem;
+            line-height: 150%;
+            color: #b3b3b3;
+        }
+        &-block{
+            border: 1px solid #262626;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            border-radius: 20px;
+            padding: 50px;
+            background-image: url('../../../html/img/security/Card.png');
+
+        }
+    }
+}

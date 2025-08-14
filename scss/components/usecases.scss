@@ -1,0 +1,130 @@
+.useCases{
+    margin-top: 150px;
+    &__title{
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 150%;
+        color: $light-green;
+    }
+    &__description{
+        margin-top: 14px;
+        font-weight: 300;
+        font-size: 1.125rem;
+        line-height: 150%;
+        color: #b3b3b3;
+    }
+    &__button{
+        margin-top: 62px;
+        border: 1px solid #262626;
+        background-color: #1c1c1c;
+        border-radius: 82px;
+        padding: 18px 24px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #fff;
+    }
+    &__block{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+        
+        &-icons{
+            padding: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            background-color: #1c1c1c;
+            position: relative;
+            border-radius: 20px;
+            &--icons1{
+               &::before{
+                content: "";
+                background-image: url("/img/Abstract\ Design\ Angle.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 213px;
+                height: 224px;
+                left: 0;
+                top: 0;
+                z-index: 0;
+               } 
+            }
+            &--icons2{
+                &::before{
+                 content: "";
+                 background-image: url("/img/Abstract\ Design\ Angle\ right.png");
+                 background-repeat: no-repeat;
+                 position: absolute;
+                 width: 213px;
+                 height: 224px;
+                 right: 0;
+                 top: 0;
+                 z-index: 0;
+                } 
+             }
+        }
+
+        &-icon{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 16px;
+            padding: 30px;
+            z-index: 1;
+            border: 1px solid #262626;
+            background-color: #1a1a1a;
+            gap: 24px;
+            max-width: 314px;
+            
+            h3{
+                font-weight: 400;
+                font-size: 1.25rem;
+                line-height: 150%;
+                text-align: center;
+            }
+        }
+
+
+        &-clients{
+            padding-top: 30px;
+        }
+        &-title{
+            font-weight: 500;
+            font-size: 1.875rem;
+            line-height: 150%;
+        }
+        &-description{
+            font-weight: 300;
+            font-size: 1.125rem;
+            line-height: 150%;
+            color: #b3b3b3;
+        }
+        &-percents{
+            margin-top: 62px;
+            display: flex;
+            hr{
+                border: 1px dashed #262626;
+                max-width: 1px;
+                
+            }
+        }
+        &-percent{
+            h1{
+                font-weight: 500;
+                font-size: 3.625rem;
+                line-height: 150%;
+                color: $light-green;
+            }
+            p{
+                font-weight: 300;
+                font-size: 1.125rem;
+                line-height: 150%;
+                color: #b3b3b3;
+                max-width: 182px;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+html{
+    font-size: 16px;
+    font-family: "Lexend", sans-serif;
+}
+
+body{
+    background: #1A1A1A;
+    color: white;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url("/img/Abstract\ Design\ header.png");
+        width: 689px;
+        height: 499px;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    line-height: 150%;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 150%;
+    span{
+        color: $light-green;
+    }
+}
+.wrapper{
+    width: 100%;
+    max-width: 1600px;
+}
