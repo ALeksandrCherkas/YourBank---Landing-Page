@@ -201,7 +201,7 @@ h1 span {
 .hero__transactions::after {
   content: "";
   z-index: -1;
-  background-image: url("/img/arrows2.png");
+  background-image: url("./img/arrows2.png");
   position: absolute;
   right: -186px;
   top: 0;
