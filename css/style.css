@@ -201,7 +201,7 @@ h1 span {
 .hero__transactions::after {
   content: "";
   z-index: -1;
-  background-image: url("./img/arrows2.png");
+  background-image: url("../../img/arrows2.png");
   position: absolute;
   right: -186px;
   top: 0;
@@ -455,7 +455,7 @@ h1 span {
 }
 .useCases__block-icons--icons1::before {
   content: "";
-  background-image: url("/img/Abstract Design Angle.png");
+  background-image: url("../../img/Abstract Design Angle.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 213px;
@@ -466,7 +466,7 @@ h1 span {
 }
 .useCases__block-icons--icons2::before {
   content: "";
-  background-image: url("/img/Abstract Design Angle right.png");
+  background-image: url("../../img/Abstract Design Angle right.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 213px;
@@ -789,7 +789,7 @@ h1 span {
 }
 .invite::before {
   content: "";
-  background-image: url("/img/Abstract Design Angle.png");
+  background-image: url("../../img/Abstract Design Angle.png");
   position: absolute;
   left: 0;
   top: 0;
