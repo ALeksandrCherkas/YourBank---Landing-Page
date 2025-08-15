@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../../../html/img/loginForm/LoginBG.png');
+    background-image: url('../././html/img/loginForm/LoginBG.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -16,7 +16,7 @@
 
     &::before{
         content: "";
-        background-image: url('../../../html/img/loginForm/Abstract\ Design.png');
+        background-image: url('../././html/img/loginForm/Abstract\ Design.png');
         width: 325px;
         height: 342px;
 
