@@ -16,7 +16,7 @@ body {
 body::before {
   content: "";
   position: absolute;
-  background-image: url("/img/Abstract Design header.png");
+  background-image: url("../img/Abstract Design header.png");
   width: 689px;
   height: 499px;
   left: 0;
@@ -201,7 +201,7 @@ h1 span {
 .hero__transactions::after {
   content: "";
   z-index: -1;
-  background-image: url("../../img/arrows2.png");
+  background-image: url(".././img/arrows2.png");
   position: absolute;
   right: -186px;
   top: 0;
@@ -455,7 +455,7 @@ h1 span {
 }
 .useCases__block-icons--icons1::before {
   content: "";
-  background-image: url("../../img/Abstract Design Angle.png");
+  background-image: url(".././img/Abstract Design Angle.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 213px;
@@ -466,7 +466,7 @@ h1 span {
 }
 .useCases__block-icons--icons2::before {
   content: "";
-  background-image: url("../../img/Abstract Design Angle right.png");
+  background-image: url(".././img/Abstract Design Angle right.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 213px;
@@ -789,7 +789,7 @@ h1 span {
 }
 .invite::before {
   content: "";
-  background-image: url("../../img/Abstract Design Angle.png");
+  background-image: url(".././img/Abstract Design Angle.png");
   position: absolute;
   left: 0;
   top: 0;
@@ -910,7 +910,7 @@ h1 span {
 }
 .careersHero::before {
   content: "";
-  background-image: url("../../../html/img/careers/Abstract Design Angle Carrers.png");
+  background-image: url("../././html/img/careers/Abstract Design Angle Carrers.png");
   width: 480px;
   height: 505px;
   position: absolute;
@@ -1003,7 +1003,7 @@ h1 span {
 .benefits__container-item {
   border-radius: 50px 20px;
   padding: 50px;
-  background-image: url("../../../html/img/careers/Card background.png");
+  background-image: url("../././html/img/careers/Card background.png");
   background-repeat: no-repeat;
 }
 .benefits__container-item--item1 {
@@ -1112,7 +1112,7 @@ h1 span {
   margin-top: 40px;
 }
 .jobOpenings__vacancy-list {
-  list-style-image: url("../../../html/img/careers/icons/list_item.svg");
+  list-style-image: url("../././html/img/careers/icons/list_item.svg");
 }
 .jobOpenings__vacancy-list li {
   margin-top: 20px;
@@ -1144,7 +1144,7 @@ h1 span {
 }
 .aboutHero::before {
   content: "";
-  background-image: url("../../../html/img/careers/Abstract Design Angle Carrers.png");
+  background-image: url("../././html/img/careers/Abstract Design Angle Carrers.png");
   width: 480px;
   height: 505px;
   position: absolute;
@@ -1207,7 +1207,7 @@ h1 span {
   border: 1px solid #262626;
   border-radius: 50px 50px 20px 20px;
   padding: 60px 60px 0px 60px;
-  background-image: url("../../../html/img/about/Abstract Design about bg.png");
+  background-image: url("../././html/img/about/Abstract Design about bg.png");
   background-repeat: no-repeat;
 }
 .mission__mission-img--mission::after {
@@ -1316,7 +1316,7 @@ h1 span {
   position: absolute;
   z-index: -1;
   top: -82px;
-  background-image: url("../../../html/img/security/Background Image.png");
+  background-image: url("../././html/img/security/Background Image.png");
   width: 1593px;
   height: 632px;
 }
@@ -1343,7 +1343,7 @@ h1 span {
   gap: 24px;
   border-radius: 20px;
   padding: 50px;
-  background-image: url("../../../html/img/security/Card.png");
+  background-image: url("../././html/img/security/Card.png");
 }
 
 .loginForm {
@@ -1356,7 +1356,7 @@ h1 span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../../html/img/loginForm/LoginBG.png");
+  background-image: url("../././html/img/loginForm/LoginBG.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1364,7 +1364,7 @@ h1 span {
 }
 .loginForm::before {
   content: "";
-  background-image: url("../../../html/img/loginForm/Abstract Design.png");
+  background-image: url("../././html/img/loginForm/Abstract Design.png");
   width: 325px;
   height: 342px;
   position: absolute;
@@ -1465,7 +1465,7 @@ h1 span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../../html/img/loginForm/LoginBG.png");
+  background-image: url("../././html/img/loginForm/LoginBG.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1473,7 +1473,7 @@ h1 span {
 }
 .signUpForm::before {
   content: "";
-  background-image: url("../../../html/img/loginForm/Abstract Design.png");
+  background-image: url("../././html/img/loginForm/Abstract Design.png");
   width: 325px;
   height: 342px;
   position: absolute;
