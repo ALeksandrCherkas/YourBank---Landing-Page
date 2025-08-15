@@ -28,7 +28,13 @@ h1, h2, h3, p {
     line-height: 150%;
 }
 
-h1{
+
+.wrapper{
+    width: 85%;
+    max-width: 1600px;
+}
+
+.title{
     font-size: 3rem;
     font-weight: 500;
     line-height: 150%;
@@ -36,7 +42,23 @@ h1{
         color: $light-green;
     }
 }
-.wrapper{
-    width: 100%;
-    max-width: 1600px;
+.description{
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #b3b3b3;
+}
+@media (max-width: 1440px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1100px){
+    .title{
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+    }
 }

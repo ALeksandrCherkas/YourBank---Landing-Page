@@ -1,14 +1,7 @@
 .testimonials{
     margin-top: 150px;
 
-    &__title{
-        font-weight: 500;
-        font-size: 3rem;
-        line-height: 150%;
-        span{
-            color: $light-green;
-        }
-    }
+
     &__info{
         display: flex;
         align-items: center;
@@ -125,6 +118,17 @@
             line-height: 150%;
             text-align: center;
             color: $light-green;
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    .testimonials{
+        &__info{
+            flex-direction: column;
+            &-switch{
+                margin-top: 20px;
+            }
         }
     }
 }
